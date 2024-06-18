@@ -9,6 +9,7 @@ int main(){
 	
 	int edad,n,i=1,s=0;
 	
+	cout<<"\t\t\tSuma edades\n";
 	cout<<"Ingrese la cantidad de alumnos de ESIS: ";cin>>n;
 	
 	while(i<=n){
@@ -17,7 +18,7 @@ int main(){
 		i++;
 	}
 	
-	cout<<"La suma de sus edades es: "<<s<<endl;
+	cout<<"La suma de sus edades es: "<<s<<"\n";
 	system("pause");
 	return 0;
 }
