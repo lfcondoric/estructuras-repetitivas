@@ -9,11 +9,11 @@ int main(){
 	
 	int edad,n,i=1,s=0;
 	
-	cout<<"\t\t\tSuma edades\n";
+	cout<<"\t\t\tSuma de edades\n";
 	cout<<"Ingrese la cantidad de alumnos de ESIS: ";cin>>n;
 	
 	while(i<=n){
-		cout<<"Ingrese la edad: ";cin>>edad;
+		cout<<"Ingrese la edad del alumno "<<i<<":";cin>>edad;
 		s+=edad;
 		i++;
 	}
