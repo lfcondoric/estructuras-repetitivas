@@ -5,20 +5,28 @@
 
 using namespace std;
 
+int sumaed(int e);
+
 int main(){
 	
-	int edad,n,i=1,s=0;
+	int e,n,p;
 	
 	cout<<"\t\t\tSuma de edades\n";
 	cout<<"Ingrese la cantidad de alumnos de ESIS: ";cin>>n;
 	
-	while(i<=n){
-		cout<<"Ingrese la edad del alumno "<<i<<":";cin>>edad;
-		s+=edad;
-		i++;
-	}
+	p=sumaed(n);
 	
-	cout<<"La suma de sus edades es: "<<s<<"\n";
+	cout<<"La suma de sus edades es: "<<p<<"\n";
 	system("pause");
 	return 0;
+}
+
+int sumaed(int n){
+	int i=1,s=0,e;
+	while(i<=n){
+		cout<<"Ingrese la edad del alumno "<<i<<":";cin>>e;
+		s+=e;
+		i++;
+	}
+	return (s);
 }
