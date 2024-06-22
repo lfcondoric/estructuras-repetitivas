@@ -10,13 +10,16 @@ int sumaed(int e);
 int main(){
 	
 	int e,n,p;
+	float pr;
 	
 	cout<<"\t\t\tSuma de edades\n";
 	cout<<"Ingrese la cantidad de alumnos de ESIS: ";cin>>n;
 	
 	p=sumaed(n);
+	pr=p/n;
 	
 	cout<<"La suma de sus edades es: "<<p<<"\n";
+	cout<<"El promedio es: "<<pr<<"\n";
 	system("pause");
 	return 0;
 }
